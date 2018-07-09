@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "990206010016",
+    "firebase_url": "https://dronaid-26574.firebaseio.com",
+    "project_id": "dronaid-26574",
+    "storage_bucket": "dronaid-26574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990206010016:android:f0c8cb4186f350d0",
+        "android_client_info": {
+          "package_name": "com.example.meesh.dronaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990206010016-gv5967tn69rlc28sqea26j0i2abhfrgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meesh.dronaid",
+            "certificate_hash": "5369a1347fbeb3aa7b00485b131a6ddf05f33bfb"
+          }
+        },
+        {
+          "client_id": "990206010016-p838aefp28klr2qo2uv36t1urkdaje3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVtLlQ4ZZyH875UenS_eNOBP-jpKb1zhw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990206010016-p838aefp28klr2qo2uv36t1urkdaje3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

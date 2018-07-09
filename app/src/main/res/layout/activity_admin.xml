@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="ADMIN PROFILE"
+        android:textSize="40px"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="56dp"
+        android:text="Name:"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp" />
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="118dp"
+        android:text="User ID:"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/name" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="181dp"
+        android:text="Phone Number:"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/name" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="132dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="136dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/phoneNumber"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="Logout"
+        android:layout_alignRight="@+id/phoneNumber" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/img"
+        android:layout_alignTop="@+id/logout"
+        android:text="Gallery"
+        android:layout_alignLeft="@+id/img" />
+</RelativeLayout>
